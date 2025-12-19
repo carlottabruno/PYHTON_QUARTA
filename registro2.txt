@@ -1,0 +1,10 @@
+Bianchi Mario;7;8;6;9;7
+Esposito Lucia;8;9;8;8
+Ferraro Ahmed;6;5;7;6;8;7
+Greco Sofia;9;8;9
+Russo Matteo;5;6;5;6
+Conti Elena;10;9;9;10;9
+De Luca Andrea;6;6;6
+Romano Giulia;7;7;8;7
+Gallo Davide;4;5;6
+Marino Chiara;8;8;9;7;8
