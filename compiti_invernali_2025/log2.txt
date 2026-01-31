@@ -1,0 +1,3 @@
+INFO: Applicazione avviata
+INFO: Utente connesso
+INFO: Operazione completata

@@ -14,7 +14,7 @@ def main():
         "Chiara": 7
     }
 
-    frequenza = {}
+    frequenza = {} 
 
     for studente in studenti_voti:
         voto = studenti_voti[studente]
@@ -23,14 +23,15 @@ def main():
         else:
             frequenza[voto] = 1
 
-    max_frequenza = 0
+    max_frequenza = frequenza[6]
+    voto_max = 6
 
     for voto in frequenza:
         if frequenza[voto] > max_frequenza:
             max_frequenza = frequenza[voto]
             voto_max = voto
 
-    print(f"Il voto più frequente è: {voto_max}")
+    print(f"Il voto più frequente è {voto_max} ed è capitato {max_frequenza} volte")
 
 if __name__ == "__main__":
     main()

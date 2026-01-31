@@ -7,23 +7,31 @@
 
 import turtle
 
+def sposta(x, y):
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+
 def poligono(lati, lunghezza):
     angolo = 360 / lati
 
-    for i in range(lati):
+    for _ in range(lati):
         turtle.forward(lunghezza)
-        turtle.right(angolo)
+        turtle.left(angolo)
 
-poligono(4, 100)   
-turtle.penup()
-turtle.forward(150)
-turtle.pendown()
+def main():
+    nPoligoni = 4
+    lato = 100
+    shift = 150
+    x0, y0 = -250, -lato / 2
 
-poligono(6, 50)    
-turtle.penup()
-turtle.forward(150)
-turtle.pendown()
+    for i in range(nPoligoni):
+        y = y0
+        x = x0 + shift * i
+        sposta(x, y)
+        poligono(i + 3, lato)
 
-poligono(8, 30)   
+    turtle.mainloop()
 
-turtle.mainloop()
+if __name__ == "__main__":
+    main()

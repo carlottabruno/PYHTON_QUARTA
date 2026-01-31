@@ -1,0 +1,6 @@
+INFO: Applicazione avviata
+ERROR: Connessione fallita
+INFO: Utente connesso
+WARNING: Memoria quasi piena
+ERROR: File non trovato
+INFO: Operazione completata
